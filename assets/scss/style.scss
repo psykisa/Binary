@@ -661,17 +661,7 @@ animation: downhill 1s ease  1 ;
         padding: 8px 14px;
         cursor: pointer;
         transition: 1s;
-        // opacity: 1;
-        // animation: trans 2s ease  infinite;
-        // animation-play-state: paused;
-        // &:hover{
-        //  animation-play-state:running;      
-        // }
-        // @keyframes trans {
-        //     0%{transform:translate(0,-330px);opacity: 0;}
-        //     100%{transform:translate(0,0px);opacity: 1;}
-        // }
-
+    
         @media (max-width: $md2) {
             flex: 1 0 100%;
         }
