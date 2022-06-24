@@ -15,7 +15,7 @@ Array.from(document.querySelector('.page__portfolio-list').children,
     item => {
         item.addEventListener('pointerdown', () => {
             Array.from(document.querySelector('.page__portfolio-list').children, value => value.style.color = 'black');
-            item.style.color = "#ada074"
+            item.style.color = "#ada074";
         })
     });
 
