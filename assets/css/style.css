@@ -1073,4 +1073,5 @@ textarea._input {
 @font-face {
   font-family: 'Myriad Pro';
   src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+  font-display: swap;
 }
