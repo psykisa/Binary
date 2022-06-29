@@ -60,7 +60,7 @@ function lightBox() {
             let arrows = document.querySelectorAll('.navigation-arrows');
             arrows.forEach((value) => {
                 value.addEventListener('pointerdown', () => {
-                    value.style.transition = "0.3s";
+                    value.style.transition = "0.5s";
                     value.style.transform = "scale(0.8)";
                     if (value.classList.contains("next-arrow")) {
                         traslateX = (traslateX > 0) ? traslateX : -traslateX;
@@ -86,7 +86,6 @@ function lightBox() {
     };
 
     function setScale() {
-        console.log("ghbsjfbkls")
         this.style.transition = "1s";
         this.style.transform = "scale(1.2)";
     }
