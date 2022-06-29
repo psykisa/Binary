@@ -344,7 +344,7 @@ textarea._input {
   width: 60%;
   height: 70%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 1px #486182 solid;
   -webkit-animation: downhill 1s ease  1;
           animation: downhill 1s ease  1;
@@ -488,6 +488,12 @@ textarea._input {
   }
 }
 
+@media screen and (orientation: landscape) {
+  .header-block__logo {
+    padding-top: 30px;
+  }
+}
+
 .header-block__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -507,6 +513,12 @@ textarea._input {
   margin-bottom: 15px;
 }
 
+@media screen and (orientation: landscape) {
+  .header-block__text {
+    padding-bottom: 15px;
+  }
+}
+
 .header-block__text::after {
   content: "";
   position: absolute;
@@ -524,10 +536,23 @@ textarea._input {
   padding-bottom: 27px;
 }
 
+@media (max-height: 376px) and (orientation: landscape) {
+  .header-block__title {
+    padding-bottom: 5px;
+    font-size: 26px;
+  }
+}
+
 .header-block__subtitle {
   font-size: 26px;
   line-height: 154%;
   font-weight: 400;
+}
+
+@media (max-height: 376px) and (orientation: landscape) {
+  .header-block__subtitle {
+    font-size: 16px;
+  }
 }
 
 .header-block__footer {
